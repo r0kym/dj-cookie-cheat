@@ -19,7 +19,7 @@ The `.gitignore` is set up so that you can add the app in a project folder and i
 
   urlpatterns = [
   ...
-  path('cheat/', include('cheat.urls.py')),
+  path('cheat/', include('cheat.urls')),
   ...
   ]
   ```
